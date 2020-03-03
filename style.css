@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+div {
+    text-align: center;
+    
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex direction: column;
+    justify-content: space-around;
+    
+}
+
+#container div {
+    padding: 2%;
+}
+
+
+#time {
+    align-self: center;
+    background-color: firebrick;
+}
+
+#date {
+    order: 1;
+    align-self: flex-start;
+    background-color: blanchedalmond;
+}
+
+#month {
+    align-self: baseline;
+    order: 4;
+    background-color: blanchedalmond;
+}
+
+#year {
+    order: 6;
+    background-color: lightgoldenrodyellow;
+}
+
+#weekday {
+    order: 5;
+    background-color: gainsboro;
+}
+
+#btn1 {
+    width: 20%;
+    height: 10%
+    
+}
+
+#btn2 {
+    width: 20%;
+    height: 10%
+    
+}
+
+#btn3 {
+    width: 20%;
+    height: 10%
+    
+}
+#btn4 {
+    width: 20%;
+    height: 10%
+    
+}
+
+#audiobtn {
+    align-self: center;
+}
