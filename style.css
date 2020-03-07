@@ -1,79 +1,101 @@
 body {
-    margin: 0;
-    font-size: 2.5em;
+  margin: 0;
+  font-size: 2.5em;
+  background: url(images/bg.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 div {
-    text-align: center;
-    
+  text-align: center;
 }
+
 
 #container {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex direction: column;
-    justify-content: space-around;
-    
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
 }
 
+#dateandmonth {
+  justify-content: space-evenly;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  color: white;
+}
 #container div {
-    padding: 2%;
+  padding: 2%;
 }
-
 
 #time {
-    align-self: center;
-    background-color: firebrick;
+  color: white;
+  align-self: center;
 }
 
 #date {
-    order: 1;
-    align-self: flex-start;
-    background-color: blanchedalmond;
+  order: 1;
+  align-self: flex-start;
 }
 
 #month {
-    align-self: baseline;
-    order: 4;
-    background-color: blanchedalmond;
+  align-self: baseline;
+  order: 1;
 }
 
 #year {
-    order: 6;
-    background-color: lightgoldenrodyellow;
+  order: 4;
 }
 
 #weekday {
-    order: 5;
-    background-color: gainsboro;
+  order: 3;
 }
 
 #btn1 {
-    width: 20%;
-    height: 10%
-    
+  width: 11%;
+  height: 3%;
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
 }
 
 #btn2 {
-    width: 20%;
-    height: 10%
-    
+  width: 11%;
+  height: 3%;
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
 }
 
 #btn3 {
-    width: 20%;
-    height: 10%
-    
+  width: 11%;
+  height: 3%;
+  bottom: 8px;
+  right: 256px;
+  position: absolute;
 }
 #btn4 {
-    width: 20%;
-    height: 10%
-    
+  width: 11%;
+  height: 3%;
+  position: absolute;
+  bottom: 8px;
+  left: 256px;
 }
 
 #audiobtn {
-    align-self: center;
+  width: 11%;
+  height: 3%;
+  order: 6;
+  position: absolute;
+}
+
+#repolink {
+  order: 5;
+  align-self: bottom;
 }
